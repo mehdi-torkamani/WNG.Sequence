@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNG.Sequence.UnitTests", "WNG.Sequence.UnitTests\WNG.Sequence.UnitTests.csproj", "{2F1672E3-0714-4B7A-9E71-4F279FF14C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNG.Sequence", "WNG.Sequence\WNG.Sequence.csproj", "{65833DD7-0782-42D2-9FA1-36057289E8AA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F1672E3-0714-4B7A-9E71-4F279FF14C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1672E3-0714-4B7A-9E71-4F279FF14C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1672E3-0714-4B7A-9E71-4F279FF14C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1672E3-0714-4B7A-9E71-4F279FF14C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65833DD7-0782-42D2-9FA1-36057289E8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65833DD7-0782-42D2-9FA1-36057289E8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65833DD7-0782-42D2-9FA1-36057289E8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65833DD7-0782-42D2-9FA1-36057289E8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
