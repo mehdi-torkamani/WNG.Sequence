@@ -63,7 +63,7 @@ namespace WNG.Sequence.Models
                 if (i % 3 == 0 && i % 5 == 0)
                     customSequence.Add("Z");
                 else if (i % 5 == 0)
-                    customSequence.Add("H");
+                    customSequence.Add("E");
                 else if (i % 3 == 0)
                     customSequence.Add("C");
                 else
