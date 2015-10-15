@@ -1,0 +1,36 @@
+﻿@model WNG.Sequence.Models.SequenceResult
+
+@{
+    ViewBag.Title = "Generted Sequences";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h2>Generted Sequences:</h2>
+        <div>User Number is: <span id="number">@Model.Number</span></div>
+        <div>
+            <b>Number Sequence:</b>
+            <span id="numberSequence">@string.Join(", ", Model.NumberSequence)</span>
+        </div>
+        <div>
+            <b>Odd Sequence:</b>
+            <span id="oddSequence">@string.Join(", ", Model.OddSequence)</span>
+        </div>
+        <div>
+            <b>Even Sequence:</b>
+            <span id="evenSequence">@string.Join(", ", Model.EvenSequence)</span>
+        </div>
+        <div>
+            <b>Custom Sequence:</b>
+            <span id="customSequence">@string.Join(", ", Model.CustomSequence)</span>
+        </div>
+        <div>
+            <b>Fibonachi Sequence:</b>
+            <span id="fibinachiSequence">@string.Join(", ", Model.FibinachiSequence)</span>
+        </div>
+    </div>
+    <div class="panel-footer">
+        @Html.ActionLink("Start Over", "CreateSequence", "Sequence", null, new { @class = "btn btn-primary" })
+    </div>
+</div>
