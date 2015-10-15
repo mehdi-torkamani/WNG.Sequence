@@ -15,8 +15,8 @@ namespace WNG.Sequence
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                url: "{controller}/{action}/{number}",
+                defaults: new { controller = "Home", action = "Index", number = UrlParameter.Optional }
             );
         }
     }

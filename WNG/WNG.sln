@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNG.Sequence.UnitTests", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNG.Sequence", "WNG.Sequence\WNG.Sequence.csproj", "{65833DD7-0782-42D2-9FA1-36057289E8AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNG.Sequence.UITests", "WNG.Sequence.UITests\WNG.Sequence.UITests.csproj", "{3BB17F86-5AE1-45D7-A6FF-4C4CF3664037}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{65833DD7-0782-42D2-9FA1-36057289E8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65833DD7-0782-42D2-9FA1-36057289E8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65833DD7-0782-42D2-9FA1-36057289E8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB17F86-5AE1-45D7-A6FF-4C4CF3664037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB17F86-5AE1-45D7-A6FF-4C4CF3664037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB17F86-5AE1-45D7-A6FF-4C4CF3664037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB17F86-5AE1-45D7-A6FF-4C4CF3664037}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
